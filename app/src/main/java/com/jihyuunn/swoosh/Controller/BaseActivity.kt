@@ -1,8 +1,9 @@
-package com.jihyuunn.swoosh
+package com.jihyuunn.swoosh.Controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.jihyuunn.swoosh.R
 
 open  class BaseActivity : AppCompatActivity() {
 
