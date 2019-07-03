@@ -9,10 +9,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".SkillActivity">
+        </activity>
+        <activity android:name=".SkillAvtivity">
+        </activity>
+        <activity android:name=".BaseActivity">
+        </activity>
         <activity android:name=".LeagueActivity">
         </activity>
         <activity android:name=".MainActivity">
-            <!--시작 페이지를 알려주는 코드 / 리그 액티비티 사이에 있으면 리그 액티비티 페이지가 시작 페이지가 됨 -->
+
+            <!-- 시작 페이지를 알려주는 코드 / 리그 액티비티 사이에 있으면 리그 액티비티 페이지가 시작 페이지가 됨 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

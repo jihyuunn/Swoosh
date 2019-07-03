@@ -44,31 +44,32 @@
         <ToggleButton
                 android:text="@string/womens"
                 android:layout_width="match_parent"
-                android:layout_height="60dp" android:id="@+id/toggleButton4" android:textOff="@string/womens"
+                android:layout_height="60dp" android:id="@+id/womensBtn" android:textOff="@string/womens"
                 android:textOn="@string/womens" android:fontFamily="@font/montserrat" android:textColor="#FFFFFF"
-                android:background="@drawable/swoosh_toggle" android:textSize="18sp"/>
+                android:background="@drawable/swoosh_toggle" android:textSize="18sp" android:onClick="womensClicked"/>
         <ToggleButton
                 android:text="@string/mens"
                 android:layout_width="match_parent"
-                android:layout_height="60dp" android:id="@+id/toggleButton3" android:layout_marginTop="20dp"
+                android:layout_height="60dp" android:id="@+id/mensBtn" android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp" android:textOff="@string/mens" android:textOn="@string/mens"
                 android:fontFamily="@font/montserrat" android:background="@drawable/swoosh_toggle"
-                android:textColor="#FFFFFF" android:textSize="18sp"/>
+                android:textColor="#FFFFFF" android:textSize="18sp" android:onClick="mensClicked"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="60dp" android:id="@+id/toggleButton2" android:textOff="@string/co_ed"
+                android:layout_height="60dp" android:id="@+id/coedBtn" android:textOff="@string/co_ed"
                 android:textOn="@string/co_ed" android:fontFamily="@font/montserrat"
-                android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF" android:textSize="18sp"/>
+                android:background="@drawable/swoosh_toggle" android:textColor="#FFFFFF" android:textSize="18sp"
+                android:onClick="coedClicked"/>
     </LinearLayout>
     <Button
-            android:text="@string/button"
+            android:text="@string/next"
             android:layout_width="0dp"
             android:layout_height="60dp"
-            android:id="@+id/button2" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/nextBtn" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/imageView"
             android:background="@drawable/swoosh_button" android:textSize="18sp" android:textColor="#FFFFFF"
-            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:onClick="nextClicked"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
